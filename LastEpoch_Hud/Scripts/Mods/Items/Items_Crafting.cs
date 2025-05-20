@@ -13,7 +13,7 @@ namespace LastEpoch_Hud.Scripts.Mods.Items
         public static Items_Crafting instance { get; private set; }
         public Items_Crafting(System.IntPtr ptr) : base(ptr) { }
 
-        private static bool Enable = true; //Use to disable the whole mod
+        private static bool Enable = false; //Use to disable the whole mod
 
         public static bool ShowDebug = false;//Main.debug; //Debug log
         public static bool CanCraftToT7 = true;
